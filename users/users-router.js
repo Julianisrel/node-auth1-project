@@ -13,7 +13,7 @@ router.get("/users", middleware.restrict(), async (req, res, next) => {
 		next(err)
 	}
 })
-// this hashes the password
+//  hashes the password
 router.post("/register", async (req, res, next) => {
   try {
   		const { username, password } = req.body

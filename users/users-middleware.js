@@ -1,4 +1,4 @@
-// middleware to check if user is signed in or note
+// middleware to check if user is signed in or not
 // tell user not signed in if they aren't
 function restrict() {
 	// put error messaage in variable so it can be re-used
